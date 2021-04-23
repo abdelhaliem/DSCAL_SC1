@@ -12,6 +12,7 @@ class ProfilePage extends StatelessWidget {
         flexibleSpace: appBarColorGradient(),
         title: appBarTitle(),
       ),
+     //SingleChildScrollView لتجنب مشكلة الاحجام علي المليتور تم وضع  
       body: SingleChildScrollView(
         child: Container(
           alignment: Alignment.center,
